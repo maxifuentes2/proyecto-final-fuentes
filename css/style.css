@@ -5,8 +5,7 @@
 }
 
 body {
-  background-image: url(../images/backgroundmobile.png);
-  background-attachment: fixed;
+  background-color: #a6adaf;
   font-family: "Jakarta";
   display: flex;
   flex-direction: column;
