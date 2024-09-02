@@ -1,0 +1,71 @@
+.main3 {
+    .titulo {
+        position: relative;
+        top: 80px;
+        h1 {
+            font-weight: 700;
+        }
+    }
+    div {
+        div {
+            div {
+                div {
+                    .tienda {
+                        position: relative;
+                        top: 100px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center; 
+                        text-align: center;
+                        .producto_foto {
+                            .foto {
+                                width: 150PX;
+                                @media (min-width: 992px) {
+                                    width: 350px;
+                                }
+                                @media (max-width: 991px) {
+                                    width: 250px;
+                                }
+                                @media (max-width: 575px) {
+                                    width: 150px;
+                                }
+                            }
+                            :last-child {
+                                display: none;
+                            }
+                            &:hover {
+                                :last-child {
+                                    display: block;
+                                }
+                                :first-child {
+                                    display: none;
+                                }
+                            }
+                        }
+                        .subtitulo-tienda {
+                            font-size: 1.5rem;
+                        }
+                        h3 {
+                            font-size: 1rem;
+                        }
+                        .botoncomprar {
+                            color: #000;
+                            font-weight: 500;
+                            background-color: $boton;
+                            width: 100%;
+                            border: solid #000000 1px;
+                            border-radius: 5px;
+                            margin-bottom: 100px;
+                            &:hover {
+                                background-color: $negrotransp;
+                            }
+                            &:active {
+                                background-color: #ffffff86;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

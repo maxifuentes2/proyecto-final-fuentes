@@ -1,0 +1,28 @@
+.main7 {
+    .titulo {
+        position: relative;
+        top: 80px;
+        h1 {
+            font-weight: 700;
+        }
+    }
+    div {
+        .formulario {
+            border: 2px solid $negrotransp;
+            margin-top: 150px;
+            border-radius: 10px;
+            .enviar {
+                background-color: $negrotransp;
+                color: #fff;
+                &:hover {
+                    background-color: $boton;
+                }
+                &:active {
+                    background-color: $blancotransp ;
+                    color: #000000;
+                }
+            }
+
+        }
+    }
+}

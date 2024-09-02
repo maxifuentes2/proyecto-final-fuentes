@@ -1,0 +1,42 @@
+
+header {
+    .navbar {
+        background-color: $negrotransp;
+        }
+        .nav-link{
+            color: #fff;
+            padding-left: 10px;
+            &:active {
+                color: #fff;
+                scale: 1;
+            }
+            &:hover {
+                scale: 1.1;
+                transition: 0.3s;
+                filter: drop-shadow(
+                    0 0 10px rgba(255, 255, 255, 0.8)
+                );
+            }
+
+        }
+        div {
+            .sidebar {
+                background-color: #00000004;
+                backdrop-filter: blur(20px);
+            }
+            a {
+                .logo{
+                    height: 50px;
+                    margin-left: 10px;
+                    &:hover {
+                        scale: 1.1;
+                        transition: 0.3s;
+                        filter: drop-shadow(
+                            0 0 10px rgba(255, 255, 255, 0.8)
+                        );
+                    }
+                }
+                
+            }
+    }
+}

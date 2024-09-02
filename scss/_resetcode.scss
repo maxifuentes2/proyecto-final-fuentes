@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    @media (min-width: 992px) {
+        background-image: url(../images/background2.png);  
+        background-attachment: fixed;
+    }
+    @media screen {
+        background-color: #8f9ca4;
+    }
+    font-family: 'Jakarta';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}

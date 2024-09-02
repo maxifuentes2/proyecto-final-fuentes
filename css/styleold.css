@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'urbanverb';
+    src: url('../fonts/fastup-bold.ttf')
+}
+
+@font-face {
+    font-family: 'Jakarta';
+    src: url(../fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: 'Jakarta';
+    background-color: #d1c0bb;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #6B4D45;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-size: 7px;
+    height: 50px;
+    padding: 15px;
+    margin-top: auto;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navbar {
+    background-color: #6B4D45;
+}
+
+.navbar .nav-link:hover {
+    color: #b6b6b6;
+    filter: drop-shadow(
+        0 0 10px rgba(0, 0, 0, .8)
+    );
+}
+
+.navbar .nav-link:active {
+    color: #fff;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.remera {
+    width: 50px;
+}
+
+.prendas {
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+.copyright {
+    font-size: 0.7rem;
+}
+
+.subtitulo-tienda {
+    font-size: 1.3rem;
+    padding-left: 10%;
+}
+
+h3 {
+    font-size: 1rem;
+    padding-left: 10%;
+}
+
+img {
+    transition: 0.2s;
+}
+
+img:hover {
+    filter: drop-shadow(
+        0 0 10px rgba(0, 0, 0, .8)
+    );
+    scale: 1.05;
+    transition: 0.2s;
+}
+
+h2:hover {
+    text-decoration: underline solid black;
+}
+
+.formulario {
+    border: 2px solid #6B4D45;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.enviar {
+    background-color: #6B4D45;
+    color: #fff;
+}
+
+.enviar:hover {
+    background-color:#44322c;
+    color: #fff;
+}
+
+.video {
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 15px;
+}
+
+.instagramlink {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+h5 {
+    color: #000;
+}
+
+.carousel-control-next-icon:hover {
+    filter: drop-shadow(
+        0 0 10px rgba(0, 0, 0, .8)
+    );
+}
+
+.carousel-control-prev-icon:hover {
+    filter: drop-shadow(
+        0 0 10px rgba(0, 0, 0, .8)
+    );
+}
+
+.itemcarousel {
+    padding-bottom: 5rem;
+}
