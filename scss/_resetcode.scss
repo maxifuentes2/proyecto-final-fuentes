@@ -9,9 +9,8 @@ body {
         background-image: url(../images/background2.png);  
         background-attachment: fixed;
     }
-    @media screen {
-        background-color: #8f9ca4;
-    }
+    background-image: url(../images/backgroundmobile.png);
+    background-attachment: fixed;
     font-family: 'Jakarta';
     display: flex;
     flex-direction: column;
