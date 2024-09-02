@@ -1,10 +1,10 @@
 .main404 {
     @media (min-width: 992px) {
-        background-color: #1d1d1d63 ;  
+        background-color: $negrotransp ;  
         background-attachment: fixed;
         height: 100vh;
     }
-    background-color: #1d1d1d63 ;
+    background-color: $negrotransp ;
     height: 100vh;
 	div {
 		display: flex;

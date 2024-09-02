@@ -430,12 +430,12 @@ footer .redes .redes_sociales img {
 }
 
 .main404 {
-  background-color: rgba(29, 29, 29, 0.3882352941);
+  background-color: rgba(0, 0, 0, 0.7607843137);
   height: 100vh;
 }
 @media (min-width: 992px) {
   .main404 {
-    background-color: rgba(29, 29, 29, 0.3882352941);
+    background-color: rgba(0, 0, 0, 0.7607843137);
     background-attachment: fixed;
     height: 100vh;
   }
